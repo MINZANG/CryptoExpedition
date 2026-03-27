@@ -48,6 +48,9 @@ CryptoExpedition 不同。它是一個 **Multi-Agent 協作系統**，每位 AI 
 ## 🎭 六位角色
 
 ### 🔮 分析師 (Analyst)
+
+<img src="assets/analyst.png" width="80" align="left" style="margin-right:16px">
+
 > *「我負責看盤，告訴大家該做多還是做空。」*
 
 - **職責**：每 10 分鐘分析市場數據，產出方向訊號
@@ -55,7 +58,12 @@ CryptoExpedition 不同。它是一個 **Multi-Agent 協作系統**，每位 AI 
 - **權限**：建議權（不能直接下單）
 - **模型**：Claude Sonnet
 
+<br clear="both">
+
 ### 🛡️ 守護者 (Position Manager)
+
+<img src="assets/guardian.png" width="80" align="left" style="margin-right:16px">
+
 > *「我保護你的倉位，管好止損止盈。」*
 
 - **職責**：每 3 分鐘評估持倉健康狀態
@@ -63,7 +71,12 @@ CryptoExpedition 不同。它是一個 **Multi-Agent 協作系統**，每位 AI 
 - **權限**：可調整止損止盈，但不能在分析師同方向高信心時平倉
 - **模型**：Claude Haiku（快速回應）
 
+<br clear="both">
+
 ### ⚖️ 批判者 (Critic)
+
+<img src="assets/critic.png" width="80" align="left" style="margin-right:16px">
+
 > *「我是進場的守門員，不通過我不准交易。」*
 
 - **職責**：每次進場前挑戰分析師的判斷
@@ -71,26 +84,43 @@ CryptoExpedition 不同。它是一個 **Multi-Agent 協作系統**，每位 AI 
 - **特殊**：批判者失敗 = 強制不交易（安全優先）
 - **模型**：Claude Haiku
 
+<br clear="both">
+
 ### 🧪 研究員 (Researcher)
+
+<img src="assets/researcher.png" width="80" align="left" style="margin-right:16px">
+
 > *「我發現新規律，驗證後變成投票策略。」*
 
 - **職責**：產生市場假設 → 追蹤 7 天 → 驗證 → 晉升為新策略
 - **三階段上線**：Shadow（0 影響）→ 低權重 → 正常權重
 - **淘汰機制**：勝率 < 35% 自動退場
 
+<br clear="both">
+
 ### ♟️ 網格師 (Grid Master)
+
+<img src="assets/evolver.png" width="80" align="left" style="margin-right:16px">
+
 > *「我優化網格的格距和範圍，低波動時出動。」*
 
 - **職責**：低波動時啟動網格交易，自動優化參數
 - **工具**：ATR、歷史績效、Claude 進化建議
 
+<br clear="both">
+
 ### 👑 進化者 (Evolver)
+
+<img src="assets/meta.png" width="80" align="left" style="margin-right:16px">
+
 > *「我是國王，每天審視全局找出最弱的環節。」*
 
 - **職責**：每天一次系統全局評估
 - **輸出**：系統成熟度評分、最弱環節、進化提案
 - **權限**：不直接改 code，產出建議供人工審核
 - **模型**：Claude Sonnet
+
+<br clear="both">
 
 ---
 

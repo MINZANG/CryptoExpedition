@@ -35,11 +35,11 @@
 
 <br clear="both">
 
-<img src="assets/monster_overfit_skull.png" width="40" align="left" style="margin-right:8px"> **過擬合骷髏** — 用過去的假象欺騙人，回測完美實戰慘敗。
+<img src="assets/monster_overfit_skull.png" width="40" align="left" style="margin-right:8px"> **幻術士** — 用過去的假象施展幻術，回測完美實戰慘敗。
 
 <br clear="both">
 
-<img src="assets/monster_sl_zombie.png" width="40" align="left" style="margin-right:8px"> **SL 殭屍** — 在暗處悄悄收緊止損繩索，明明方向對卻被秒掃出場。
+<img src="assets/monster_sl_zombie.png" width="40" align="left" style="margin-right:8px"> **止損陷阱** — 在暗處悄悄收緊止損繩索，讓冒險者明明方向對卻掉入陷阱。
 
 <br clear="both">
 

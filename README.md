@@ -133,14 +133,32 @@ CryptoExpedition 不同。它是一個 **Multi-Agent 協作系統**，每位 AI 
 
 市場不是空白地圖。遠征隊每天都在跟這些怪物戰鬥：
 
-| 怪物 | 真面目 | 威脅 | 誰來應對 |
-|---|---|---|---|
-| 🦢 **黑天鵝** | 閃崩、暴漲、突發事件 | 一口吃掉所有利潤，甚至本金 | 守護者（即時止損）+ 風控系統（硬止損 25%） |
-| 👻 **假突破幽靈** | 看似突破卻反轉 | 方向判斷正確但被止損掃出 | 分析師（多時間框架確認）+ 動態 ATR 止損 |
-| 🕷️ **低波動蜘蛛網** | 盤整行情，上下震盪 | 反覆進出場，慢性失血 | 網格師（盤整時切換網格策略）+ Deadzone 過濾 |
-| 🌊 **情緒海嘯** | FOMO、恐慌、市場極端情緒 | AI 被情緒數據誤導做出錯誤判斷 | 批判者（否決衝動交易）+ Regime 禁止機制 |
-| 💀 **過擬合骷髏** | 歷史回測完美但實戰慘敗 | 策略只適用於過去，未來失效 | 研究員（三階段上線）+ Shadow Trading 驗證 |
-| 🧟 **SL 殭屍** | 止損被反覆收緊到幾乎為零 | 明明方向對卻被秒掃出場 | 最小寬度保護 + tighten cooldown + 仲裁機制 |
+<table>
+<tr>
+<td width="80"><img src="assets/monster_black_swan.png" width="64"></td>
+<td><b>🦢 黑天鵝</b><br>閃崩、暴漲、突發事件 — 一口吃掉所有利潤<br><i>應對：守護者（即時止損）+ 風控硬止損 25%</i></td>
+</tr>
+<tr>
+<td><img src="assets/monster_fake_breakout.png" width="64"></td>
+<td><b>👻 假突破幽靈</b><br>看似突破卻反轉 — 方向對但被止損掃出<br><i>應對：分析師（多時間框架確認）+ 動態 ATR 止損</i></td>
+</tr>
+<tr>
+<td><img src="assets/monster_low_vol_spider.png" width="64"></td>
+<td><b>🕷️ 低波動蜘蛛網</b><br>盤整行情，上下震盪 — 反覆進出，慢性失血<br><i>應對：網格師（切換網格策略）+ Deadzone 過濾</i></td>
+</tr>
+<tr>
+<td><img src="assets/monster_emotion_tsunami.png" width="64"></td>
+<td><b>🌊 情緒海嘯</b><br>FOMO、恐慌、極端情緒 — AI 被情緒誤導<br><i>應對：批判者（否決衝動交易）+ Regime 禁止機制</i></td>
+</tr>
+<tr>
+<td><img src="assets/monster_overfit_skull.png" width="64"></td>
+<td><b>💀 過擬合骷髏</b><br>回測完美但實戰慘敗 — 策略只適用過去<br><i>應對：研究員（三階段上線）+ Shadow Trading 驗證</i></td>
+</tr>
+<tr>
+<td><img src="assets/monster_sl_zombie.png" width="64"></td>
+<td><b>🧟 SL 殭屍</b><br>止損被反覆收緊到幾乎為零 — 方向對卻秒掃<br><i>應對：最小寬度保護 + tighten cooldown + 仲裁機制</i></td>
+</tr>
+</table>
 
 > *每一隻怪物都是我們真實遇到的 bug 或虧損。每一個防禦機制都是被打敗後設計出來的。*
 

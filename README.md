@@ -17,7 +17,18 @@
 
 很久以前，有一片名為 **Crypto** 的古老大陸。
 
-這片大陸上遍佈著珍貴的寶藏，但也潛伏著危險的怪物——🦢 會在無預警時吞噬一切的**黑天鵝**、👻 引誘冒險者走入陷阱的**假突破幽靈**、🕷️ 用無盡盤整困住旅人的**低波動蜘蛛網**、🌊 席捲理智的**情緒海嘯**、💀 用過去的假象欺騙人的**過擬合骷髏**，以及 🧟 在暗處悄悄收緊繩索的**SL 殭屍**。
+這片大陸上遍佈著珍貴的寶藏，但也潛伏著危險的怪物——
+
+<div align="center">
+<img src="assets/monster_black_swan.png" width="48" title="黑天鵝">
+<img src="assets/monster_fake_breakout.png" width="48" title="假突破幽靈">
+<img src="assets/monster_low_vol_spider.png" width="48" title="低波動蜘蛛網">
+<img src="assets/monster_emotion_tsunami.png" width="48" title="情緒海嘯">
+<img src="assets/monster_overfit_skull.png" width="48" title="過擬合骷髏">
+<img src="assets/monster_sl_zombie.png" width="48" title="SL 殭屍">
+</div>
+
+會在無預警時吞噬一切的**黑天鵝**、引誘冒險者走入陷阱的**假突破幽靈**、用無盡盤整困住旅人的**低波動蜘蛛網**、席捲理智的**情緒海嘯**、用過去的假象欺騙人的**過擬合骷髏**，以及在暗處悄悄收緊繩索的**SL 殭屍**。
 
 無數獨行的冒險者來了又走，帶著傷痕離開。
 

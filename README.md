@@ -1,4 +1,8 @@
-# 🏔️ CryptoExpedition
+# 🏔️ 加密探險隊
+
+<div align="center">
+<img src="assets/banner.jpg" width="100%">
+</div>
 
 > **A Multi-AI Agent Crypto Trading System**
 > 6 位 AI 角色組成遠征隊，在加密貨幣市場中協作、辯論、進化。
